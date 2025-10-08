@@ -1,7 +1,27 @@
 // Configuration
 @import "bootstrap/scss/functions";
+
+$text: #120216;
+$background: #fdf5fe;
+$primary: #cd1fe6;
+$secondary: #f183ac;
+$accent: #eb4e5d;
+
 @import "bootstrap/scss/variables";
 @import "bootstrap/scss/variables-dark";
+
+$theme-colors: (
+  "primary": $primary,
+  "secondary": $secondary,
+  "success": $accent,
+  "colore-inventato": $indigo,
+  "info": $info,
+  "warning": $warning,
+  "danger": $danger,
+  "light": $light,
+  "dark": $text,
+);
+
 @import "bootstrap/scss/maps";
 @import "bootstrap/scss/mixins";
 @import "bootstrap/scss/utilities";
